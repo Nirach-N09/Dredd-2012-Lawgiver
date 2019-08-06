@@ -9,12 +9,18 @@ It should be self explanitory code wise - I'm pretty new to it all, so it won't 
 256x64 Screen pin mapping
 
 GND
+
 VCC
-SCL	D10
-SDA	D9
-RES	D13
-DC	D11
-CS	D12
+
+SCL-D10
+
+SDA-D9
+
+RES-D13
+
+DC-D11
+
+CS-D12
 
 Screen info
 
@@ -31,12 +37,18 @@ Screen info
 
   
 LED Pin mapping (WS2812 RGB)
-GND	GND
-Din	D2
-5V	5V
+
+GND-GND
+
+Din-D2
+
+5V-5V
 
 
 Button Pin Mapping (4pin)
-RED	5v
-BLK	GND
-GRN	D3
+
+RED-5v
+
+BLK-GND
+
+GRN-D3
