@@ -41,7 +41,6 @@ void loop(void)
   do {
   currentMillis = millis();
   buttonState = digitalRead(buttonPin);
-  u8g2.clearBuffer();
   u8g2.setFontMode(0);
   u8g2.setDrawColor(1);
       //ID Check bar 
@@ -137,8 +136,6 @@ void loop(void)
           u8g2.setCursor(164,61);
           u8g2.setDrawColor(0);
           u8g2.print("fmj");
-        
-        u8g2.sendBuffer();
   }
   while (u8g2.nextPage() );
    
