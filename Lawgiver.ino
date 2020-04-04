@@ -8,7 +8,7 @@
 
 #define LED_PIN 2
 #define NUM_LEDS 1
-#define BRIGHTNESS 5
+#define BRIGHTNESS 50
 #define LED_TYPE WS2812
 CRGB leds[NUM_LEDS];
 int lbar = 1;
@@ -25,7 +25,7 @@ int lastButtonState = 0;
 int FMJCounter = 25;
 
 
-U8G2_SH1122_256X64_1_4W_SW_SPI u8g2(U8G2_R0, 10, 9, 12, 11, 13);
+U8G2_SH1122_256X64_1_4W_SW_SPI u8g2(U8G2_R2, 10, 9, 12, 11, 13);
 
 void setup(void)
 {
